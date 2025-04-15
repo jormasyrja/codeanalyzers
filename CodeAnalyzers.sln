@@ -1,0 +1,58 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35919.96 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeAnalyzers.SystemTextJson", "src\CodeAnalyzers.SystemTextJson\CodeAnalyzers.SystemTextJson.csproj", "{8096D266-F328-4439-AE10-DF0D6C9E13F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeAnalyzers.SystemTextJson.CodeFixes", "src\CodeAnalyzers.SystemTextJson.CodeFixes\CodeAnalyzers.SystemTextJson.CodeFixes.csproj", "{1BEEEA9F-34A9-4C0B-8AE2-9B471F9792C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeAnalyzers.SystemTextJson.Package", "src\CodeAnalyzers.SystemTextJson.Package\CodeAnalyzers.SystemTextJson.Package.csproj", "{86D9BEF4-B236-4D1F-BAAF-BDB1B268078A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeAnalyzers.SystemTextJson.Test", "src\CodeAnalyzers.SystemTextJson.Test\CodeAnalyzers.SystemTextJson.Test.csproj", "{1DDE5FB7-110B-4C04-BCA3-C644C9BBA04F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeAnalyzers.SystemTextJson.Vsix", "src\CodeAnalyzers.SystemTextJson.Vsix\CodeAnalyzers.SystemTextJson.Vsix.csproj", "{471DA4E1-3856-4A8A-A995-3891E2C893CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8096D266-F328-4439-AE10-DF0D6C9E13F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8096D266-F328-4439-AE10-DF0D6C9E13F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8096D266-F328-4439-AE10-DF0D6C9E13F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8096D266-F328-4439-AE10-DF0D6C9E13F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BEEEA9F-34A9-4C0B-8AE2-9B471F9792C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BEEEA9F-34A9-4C0B-8AE2-9B471F9792C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BEEEA9F-34A9-4C0B-8AE2-9B471F9792C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BEEEA9F-34A9-4C0B-8AE2-9B471F9792C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86D9BEF4-B236-4D1F-BAAF-BDB1B268078A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86D9BEF4-B236-4D1F-BAAF-BDB1B268078A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86D9BEF4-B236-4D1F-BAAF-BDB1B268078A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86D9BEF4-B236-4D1F-BAAF-BDB1B268078A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DDE5FB7-110B-4C04-BCA3-C644C9BBA04F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DDE5FB7-110B-4C04-BCA3-C644C9BBA04F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DDE5FB7-110B-4C04-BCA3-C644C9BBA04F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DDE5FB7-110B-4C04-BCA3-C644C9BBA04F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{471DA4E1-3856-4A8A-A995-3891E2C893CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{471DA4E1-3856-4A8A-A995-3891E2C893CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{471DA4E1-3856-4A8A-A995-3891E2C893CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{471DA4E1-3856-4A8A-A995-3891E2C893CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8096D266-F328-4439-AE10-DF0D6C9E13F5} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{1BEEEA9F-34A9-4C0B-8AE2-9B471F9792C2} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{86D9BEF4-B236-4D1F-BAAF-BDB1B268078A} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{1DDE5FB7-110B-4C04-BCA3-C644C9BBA04F} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{471DA4E1-3856-4A8A-A995-3891E2C893CB} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {967DE948-B826-4162-8EC1-1ECC06AB520A}
+	EndGlobalSection
+EndGlobal
