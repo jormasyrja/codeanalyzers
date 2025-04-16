@@ -31,7 +31,7 @@ namespace CodeAnalyzers.SystemTextJson
         private static void AnalyzeOperation(OperationAnalysisContext context)
         {
             var operation = (IDefaultValueOperation)context.Operation;
-            if (operation.Type.Name != nameof(System.Text.Json.JsonSerializerOptions))
+            if (operation.Type.Name != "System.Text.Json.JsonSerializerOptions")
             {
                 return;
             }
