@@ -31,7 +31,20 @@ namespace CodeAnalyzers.SystemTextJson
         private static void AnalyzeOperation(OperationAnalysisContext context)
         {
             var operation = (IDefaultValueOperation)context.Operation;
-            if (operation.Type.Name != "System.Text.Json.JsonSerializerOptions")
+            if (operation.Type.Name != "JsonSerializerOptions")
+            {
+                return;
+            }
+
+            // verify FQN
+            var fqn = operation.Type.ToDisplayString(new SymbolDisplayFormat(
+                SymbolDisplayGlobalNamespaceStyle.Omitted,
+                SymbolDisplayTypeQualificationStyle.NameAndContainingTypesAndNamespaces,
+                SymbolDisplayGenericsOptions.IncludeTypeParameters,
+                miscellaneousOptions: SymbolDisplayMiscellaneousOptions.ExpandNullable
+            ));
+
+            if (fqn != "System.Text.Json.JsonSerializerOptions")
             {
                 return;
             }
